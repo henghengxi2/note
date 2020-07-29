@@ -1,0 +1,2 @@
+1.rect对象
+Element.getBoundingClientRect() 方法返回元素的大小及其相对于视口的位置，返回的DOMRect 是 TextRectangle 或 ClientRect 的标准名称，是一个拥有left、right、top、bottom、x、y、width、heigth属性的对象，而且这些属性为非私有属性，不能通过Object.assign,...,Object.keys()获取，直接点语法获取，在新版本浏览器中可以直接修改属性值
