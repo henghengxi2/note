@@ -1,4 +1,8 @@
 # TS
+
+## Q: TS的优势是什么？用TS有什么好处？
+
+
 ### 特点：
 1. 静态代码解析
 2. 代码有错误仍然可以生成js文件，但不一定可以执行
@@ -40,3 +44,12 @@
 1. instanceof
 2. in
 3. 字面量
+
+### class
+利用class统一管理类型和初始化默认值
+
+### typescript与react
+1. @type 表示引用js库的ts声明文件
+2. 无状态组件  type SFC<P>    React.SFC<IProps>  
+3. 有状态组件  Component<P, S>
+
